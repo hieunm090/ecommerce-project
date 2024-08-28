@@ -34,16 +34,14 @@
               </li>
                 
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>    
-          </ul>
-          <div class="d-flex"> <ul class="navbar-nav"> 
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            
             <li class="nav-item">
-              <a href="#" class="nav-link" aria-label="Shopping Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="cart.html"><i class="fas fa-cart-shopping"></i></a>
             </li> 
-
             <li class="nav-item">
-              <a href="#" class="nav-link" aria-label="User Profile"><i class="fas fa-user"></i></a>
+              <a href="account.html" <i class="fas fa-user"></i></a>
             </li> 
           </ul>
         </div>

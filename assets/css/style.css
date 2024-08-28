@@ -308,3 +308,223 @@ footer .copyright img{
     margin: 3px 5px;
     font-size: 1.5rem;
 }
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.single-product input:focus{
+    outline: none;
+}
+
+.single-product .buy-btn{
+    background-color: #fb774b;
+    opacity: 1;
+    transition: 0.4s all;
+}
+
+.single-product .buy-btn:hover{
+    background-color: #222222;
+}
+
+
+/* Cart*/
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart th {
+    text-align: left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #fb774b;
+}
+
+.cart td {
+    padding: 10px 20px;
+}
+
+.cart td img { 
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.cart td a{
+    color:#fb774b;
+}
+
+.cart .remove-btn{
+    color: #fb774b;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.cart .edit-btn{
+    color:#fb774b;
+    text-decoration: none;
+    font-size:15px;
+}
+
+.cart .product-info p{
+    margin: 3px;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid #fb774b;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.checkout-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout-btn{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fb774b;
+    color:#fff; 
+}
+
+
+/*Login*/
+
+#login-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #fb774b;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#login-form #login-btn{
+    background-color: #fb774b;
+    color:#fff;
+}
+
+#login-form #register-url{
+    color: #fb774b;
+}
+
+/*Register*/
+#register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #fb774b;
+}
+
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#register-form #register-btn{
+    background-color: #fb774b;
+    color:#fff;
+}
+
+#register-form #login-url{
+    color: #fb774b;
+}
+
+/* Account  */
+
+#account-form{
+    width: 50%;
+    margin: 35px aut;
+    text-align: center;
+    padding: 2  0px;
+}
+
+#account-form input{
+    margin:5px auto;
+}
+
+#account-form #change-pass-btn{
+    color: #fff;
+    background-color: #fb774b;
+}
+
+.account-info #ordes-btn,#log-out-btn{
+    color:#fb774b;
+    text-decoration: none;
+}
+
+/* orders */
+.orders table{
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.orders .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders th{
+    padding: 5px 20px;
+    color:#fff;
+    background-color: #fb774b;
+    text-align: left;
+}
+
+.orders th:nth-child(2){
+    text-align: right;
+}
+
+.orders td{
+    padding: 10px 20px;
+}
+
+.orders td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* Contact */
+#contact span{
+    color: #fb774b;
+}
