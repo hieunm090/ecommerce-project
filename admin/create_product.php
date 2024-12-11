@@ -28,10 +28,10 @@ if(isset($_POST['create_product'])){
  $image_name4 = $product_name."4.jpeg";
 
  //upload ảnh
- move_uploaded_file($image1,"../assets/imgs/".$image_name1);
- move_uploaded_file($image2,"../assets/imgs/".$image_name2);
- move_uploaded_file($image3,"../assets/imgs/".$image_name3);
- move_uploaded_file($image4,"../assets/imgs/".$image_name4);
+ move_uploaded_file($image1,"assets/imgs/".$image_name1);
+ move_uploaded_file($image2,"assets/imgs/".$image_name2);
+ move_uploaded_file($image3,"assets/imgs/".$image_name3);
+ move_uploaded_file($image4,"assets/imgs/".$image_name4);
 
 
   //tạo một người dùng mới

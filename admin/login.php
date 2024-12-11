@@ -89,7 +89,7 @@
 
 
                 <div class="form-group mt-3">
-                    <input type="submit" class="btn btn-primary" name="login_btn" value="Login"/>
+                    <input type="submit" class="btn btn-primary" name="login_btn" value="Đăng Nhập"/>
                 </div>
  
               </form>

@@ -123,28 +123,28 @@ if(isset($_POST['search'])){
 
                     <p>Danh Mục</p>
                     <div class="form-check">
-                        <input class="form-check-input" value="shoes" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='giày'){echo 'checked';}?>>
+                        <input class="form-check-input" value="giày" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='giày'){echo 'checked';}?>>
                         <label class="form-check-label" for="flexRadioDefault1">
                     Giày
                     </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" value="coats" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='áo khoác'){echo 'checked';}?>>
+                        <input class="form-check-input" value="áo khoác" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='áo khoác'){echo 'checked';}?>>
                         <label class="form-check-label" for="flexRadioDefault2">
                     Áo Khoác
                     </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" value="watches" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='đồng hồ'){echo 'checked';}?>>
+                        <input class="form-check-input" value="đồng hồ" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='đồng hồ'){echo 'checked';}?>>
                         <label class="form-check-label" for="flexRadioDefault2">
                     Đồng Hồ
                     </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" value="bags" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='túi xách'){echo 'checked';}?>>
+                        <input class="form-check-input" value="túi xách" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='túi xách'){echo 'checked';}?>>
                         <label class="form-check-label" for="flexRadioDefault2">
                     Túi
                     </label>

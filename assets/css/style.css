@@ -641,3 +641,15 @@ th:last-child {
     color: #fff;
     background-color: coral;
 }
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+    background-color: #e9ecef;
+    color: #495057;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  
